@@ -29,8 +29,12 @@ nav h1 {
   margin: 0 100px;
 }
 
+main {
+  margin: auto 100px;
+}
+
 .main-visual-box {
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .main-visual {
@@ -40,6 +44,18 @@ nav h1 {
   background-position: center; /* 背景画像を中央に配置 */
 }
 
+.menu {
+  margin-bottom: 50px;
+}
+
+.menu-items {
+  margin-bottom: 20px;
+}
+
+.address {
+  margin-bottom: 50px;
+}
+
 
 .footer {
   width: 100%;
@@ -47,5 +63,6 @@ nav h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: dashed #cfcacc;
 }
 
