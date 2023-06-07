@@ -44,6 +44,12 @@ main {
   background-position: center; /* 背景画像を中央に配置 */
 }
 
+.carousel {
+  width: 100%; /* カルーセルの幅 */
+  height: 300px; /* カルーセルの高さ */
+  overflow: hidden; /* スライドのはみ出しを制御 */
+}
+
 .menu {
   margin-bottom: 50px;
 }

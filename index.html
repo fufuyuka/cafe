@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css" />
+  <!--jQueryとSlickのスクリプトを読み込むためのCDNのリンク-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  
   <title>Bonheur à 15h00</title>
 </head>
 
@@ -25,6 +30,27 @@
       <div class="main-visual">
       </div>
     </div>
+    
+    <!--カルーセル-->
+    <div class="carousel">
+      <img src="images/cookie.jpg" alt="スライド1">
+      <img src="images/chiffon_cake.jpg" alt="スライド2">
+      <img src="images/chiffon_cake2.jpg" alt="スライド3">
+    </div>
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.carousel').slick({
+          autoplay: true, /* 自動再生するかどうか */
+          autoplaySpeed: 2000, /* スライド間の待機時間（ミリ秒） */
+          dots: true, /* ドットナビゲーションを表示するかどうか */
+          arrows: true /* 矢印ナビゲーションを表示するかどうか */
+        });
+      });
+    </script>
+    
+    
     
     <div class="menu">
       <h2>MENU</h2>
