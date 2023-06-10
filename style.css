@@ -192,7 +192,6 @@ button {
   flex-wrap: wrap; /* 折り返し指定 */
 }
 
-
 .menu-card {
   width: 350px;
   margin: 10px;
@@ -224,6 +223,12 @@ button {
   margin-bottom: 50px;
 }
 
+.address-card {
+  width: auto;
+  padding: 20px;
+  box-shadow: 0 2px 5px #ccc;
+  margin-bottom: 20px;
+}
 
 .footer {
   width: 100%;
@@ -233,4 +238,3 @@ button {
   align-items: center;
   border-top: dashed #cfcacc;
 }
-
