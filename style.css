@@ -6,8 +6,13 @@
   list-style: none;
 }
 
-nav {
+header {
+  position: fixed;
   width: 100%;
+  background-color: #fff;
+}
+
+nav {
   height: 100px;
   display: flex;
   line-height: 100px;
@@ -16,6 +21,7 @@ nav {
 
 nav h1 {
   padding-left: 40px;
+  font-size: 2em;
 }
 
 .nav-list {
@@ -28,9 +34,11 @@ nav h1 {
   list-style: none;
   display: inline-block;
   margin: 0 100px;
+  font-size: 20px;
 }
 
 main {
+  padding-top: 80px;
   margin: auto 100px;
 }
 
@@ -167,8 +175,13 @@ button {
   overflow: hidden; /* スライドのはみ出しを制御 */
 }
 
-.menu {
-  margin-bottom: 50px;
+.menu, .address {
+  padding-top: 50px;
+  font-size:3em;
+	text-align:center;
+	font-weight:bold;
+	color: #FFF;
+	text-shadow: 0 0 0.2em rgba(0,0,0,0.8);
 }
 
 .menus {
