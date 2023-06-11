@@ -223,8 +223,14 @@ button {
   margin-bottom: 50px;
 }
 
+.address-container {
+  display: flex;
+  justify-content:center;
+}
+
 .address-card {
-  width: auto;
+  font-size: 1em;
+  width: 400px;
   padding: 20px;
   box-shadow: 0 2px 5px #ccc;
   margin-bottom: 20px;
